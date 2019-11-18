@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina Principal</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <!--Barra de Navegação-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Eventos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="cadastro.html">Cadastro</a>
+                </li>      
+                
+            </div>
+          </nav>
+
+    <!--Fim da barra de Navegação-->
+
+        <h2>Eventos</h2>
+
+        <div id="conteudo"></div>
+
+        <script>
+        
+        fetch("http://10.26.45.29/eventos/data/listar.php")
+        .then(response =>{
+            return response.json();
+        })
+        .then(data =>{
+            var rs = "";
+            
+            data.saida.forEach(element => {
+
+                if (element.atracao == "Dj Piu e Mc Kitinho") {
+                    cor="bg-info";
+                }
+                else if (element.atracao =="Pagode do Marcinho e Mc Jottape") {
+                    cor="bg-dark";
+                }
+                else{
+                    cor="bg-primary";
+                }
+               
+                rs +="<div class=\"card text-white "+cor+" mb-3\" style=\"max-width: 100%;\">";
+                rs +="<div class=\"card-header\">"+element.atracao+"</div>";
+                rs +="<div class=\"card-body\">";
+                rs +="<h5 class=\"card-title\">"+element.tituloevento+"</h5>";
+                rs +="<p class=\"card-text\">"+element.descricao+"<br>"+element.censura+"<br>"+element.endereco+"<br>"+element.lotacao+"<br>"+element.dataevento+"<br>"+element.hora+"</p>";
+                rs +="</div>";
+                rs +="</div>";
+
+
+
+
+
+            });
+            document.getElementById("conteudo").innerHTML = rs;
+        }).catch(err =>{
+            console.log("Erro ao tentar ler a api"+err);
+        })
+
+        </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

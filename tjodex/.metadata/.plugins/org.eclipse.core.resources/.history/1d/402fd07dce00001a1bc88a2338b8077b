@@ -1,0 +1,143 @@
+package br.com.tjodex.frames;
+
+import java.awt.EventQueue;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+import br.com.tjodex.frames.Principal;
+import br.com.tjodex.dal.ConnectionModule;
+import javax.swing.JPasswordField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Login extends JFrame {
+	
+	Connection con = ConnectionModule.conector();
+	PreparedStatement pst = null;
+	ResultSet rs = null;
+
+	private JPanel contentPane;
+	private JTextField txtUser;
+	private JPasswordField txtPassword;
+	private JButton btnLogin;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Login frame = new Login();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Login() {
+		setTitle("Login");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 387, 204);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblUsuario = new JLabel("Usuario:");
+		lblUsuario.setBounds(10, 43, 76, 14);
+		contentPane.add(lblUsuario);
+		
+		JLabel lblSenha = new JLabel("Senha:");
+		lblSenha.setBounds(10, 69, 76, 14);
+		contentPane.add(lblSenha);
+		
+		txtUser = new JTextField();
+		txtUser.setBounds(72, 40, 190, 20);
+		contentPane.add(txtUser);
+		txtUser.setColumns(10);
+		
+		btnLogin = new JButton("Login");
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				login();
+				
+			}
+		});
+		btnLogin.setBounds(118, 119, 89, 23);
+		contentPane.add(btnLogin);
+		
+		JLabel lblStatus = new JLabel("");
+		lblStatus.setIcon(new ImageIcon(Login.class.getResource("/br/com/tjodex/icons/dberror.png")));
+		lblStatus.setBounds(319, 25, 32, 32);
+		contentPane.add(lblStatus);
+		
+		txtPassword = new JPasswordField();
+		txtPassword.setBounds(72, 68, 190, 20);
+		contentPane.add(txtPassword);
+		
+		con = ConnectionModule.conector();
+		
+		if (con !=null) {
+			lblStatus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/tjodex/icons/dbok.png")));
+		} else {
+			lblStatus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/tjodex/icons/dberror.png")));
+		}
+		//enter automatico
+		getRootPane().setDefaultButton(btnLogin);
+	}
+	
+	//login
+		private void login() {
+			String read = "select * from tb_usuarios where login = ? and senha = ?";
+			try {
+				pst = con.prepareStatement(read);
+				pst.setString(1, txtUser.getText());
+				pst.setString(2, txtPassword.getText());
+				rs = pst.executeQuery();
+				if (rs.next()) {
+					String perfil = rs.getString(5);
+					if (perfil.equals("gerente")) {
+					Principal principal = new Principal();
+					principal.setVisible(true);
+					//centralizar o Jframe
+					principal.setLocationRelativeTo(null);
+					principal.btnRelatorios.setEnabled(true);
+					principal.btnUsuarios.setEnabled(true);					
+					this.dispose();
+						
+				}else {
+					Principal principal = new Principal();
+					principal.setVisible(true);
+					//centralizar o Jframe
+					principal.setLocationRelativeTo(null);
+					this.dispose();
+				}
+					
+				}
+					else {
+					JOptionPane.showMessageDialog(null, "usuario e/ou senha invalido(s)");
+				}
+			} catch(Exception e) {
+				System.out.println(e);
+			}
+			
+			
+		}
+		
+}
