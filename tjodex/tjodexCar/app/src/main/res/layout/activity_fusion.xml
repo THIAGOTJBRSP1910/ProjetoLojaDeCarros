@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:pageColor="@color/cinza"
+            app:fillColor="@color/branco"
+            app:slideInterval="3000"
+            app:radius="6dp"
+            app:strokeColor="@color/cinza"
+            app:strokeWidth="1dp"
+            android:id="@+id/carouselfusion"
+
+    >
+
+    </com.synnapps.carouselview.CarouselView>
+
+    <ImageView android:layout_width="410dp"
+               android:layout_height="300dp"
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/carouselfusion"
+               android:id="@+id/ford"
+               android:background="@drawable/fusio"
+    />
+    <ImageView android:layout_width="410dp"
+               android:layout_height="300dp"
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/ford"
+               android:id="@+id/localizacaofusion"
+               android:background="@drawable/localizacao"
+    />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/lateral">
+
+            <item android:id="@+id/home" android:title="Home" android:icon="@drawable/icone_perfil"/>
+
+
+            <item android:id="@+id/menuPolitica" android:title="Politica de Privacidade" android:icon="@drawable/iconpolitica"/>
+
+    </group>
+
+    <group>
+        <item android:id="@+id/menuSair" android:title="Sair" android:icon="@drawable/icone_sair"/>
+    </group>
+
+
+</menu>

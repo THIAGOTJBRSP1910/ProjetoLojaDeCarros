@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">tjodexCar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="logar">Logar</string>
+    <string name="perfil">Perfil</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+    <string name="preco">Preço</string>
+    <string name="politica">Politica de Privacidade</string>
+    <string name="sair">Sair</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">E-mail</string>
+    <string name="numero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="cep">CEP</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="endereco">Endereço</string>
+    <string name="rg">RG</string>
+    <string name="HondaCivic">Honda Civic</string>
+    <string name="HondaCivicAno">2012</string>
+    <string name="HondaCivicPreco">54.640</string>
+    <string name="HondaCivicKm">49.900</string>
+    <string name="HondaCivicCambio">automatico</string>
+    <string name="HondaCivicCarroceria">sedã</string>
+    <string name="HondaCivicCombustivel">flex</string>
+    <string name="HondaCivicPlaca">8</string>
+    <string name="HondaCivicCor">Preto</string>
+    <string name="HondaCivicIpvaPago">ipvaPago</string>
+    <string name="HondaCivicIpvaEstoue">4</string>
+
+    <string name="textopolitica">
+
+        <![CDATA[
+        INTRODUÇÃO
+
+        ]]>
+
+        <![CDATA[A Política de Privacidade da Neon Pagamentos S.A. ("NEON") tem por objetivo estabelecer e compartilhar com todos os usuários ("Usuários"), de forma transparente, como as informações e os dados são coletados, utilizados, armazenados, tratados e protegidos no contexto da utilização do aplicativo para celular e dispositivos móveis NEON ("Aplicativo") e do website www.neon.com.br​ ("Site").
+
+        Ao se cadastrar na NEON e clicar na caixa "LI E ACEITO" ou caso haja o aceite de atualizações da Política de Privacidade, conforme descrito abaixo, você está indicando, expressa e livremente, a sua concordância com a nossa Política de Privacidade e Termos de Uso. Por isso, sugerimos que você leia com atenção os termos aqui contidos, bem como as suas eventuais atualizações antes de tomar a decisão de começar a usar ou continuar com a utilização dos Serviços oferecidos pela NEON.
+
+        Com o objetivo de tornar mais fácil o entendimento da nossa Política de Privacidade, utilizamos alguns termos em letras maiúsculas, que tem o significado definido para os fins desse documento. Os termos definidos têm o seu significado descrito nesta própria Política de Privacidade ou nos Termos de Uso.
+
+        A NEON
+
+        Na NEON, nós sempre buscamos proporcionar a melhor experiência na utilização dos nossos Serviços, por isso, a transparência com você é muito importante. Para que a NEON possa fornecer seus Serviços da maneira mais proveitosa possível, precisamos coletar alguns de seus dados pessoais e informações decorrentes da utilização dos Serviços oferecidos pela NEON. Prezamos muito pela confiança em nós depositada, portanto, adotamos padrões de segurança e regras claras de utilização dos dados armazenados e não vamos
+
+        utilizá-los de nenhuma maneira que contrarie esta Política de Privacidade, os Termos de Uso ou a lei aplicável.
+
+
+
+        DADOS COLETADOS, USADOS E ARMAZENADOS
+
+        A NEON poderá usar, armazenar, processar e transmitir ou disponibilizar a terceiros os dados coletados, informações e registros de acesso coletados para as seguintes finalidades: (i) para prestar os Serviços oferecidos no Site e no Aplicativo, inclusive administrar a conta do Usuário e comunicar novidades e atualizações; (ii) para aprimorar as suas funcionalidades; (iii) nos casos obrigatórios por lei; (iv) em caso de suspeita de fraudes, violação de direitos de terceiros ou outros ilícitos praticados pelos Usuários, para fins de investigação por terceiros prejudicados e/ou por autoridades competentes; (v) mediante ordem judicial; ou (vi) para mapeamento de informações de mercado e estatísticas e elaboração de relatórios de dados.
+
+        Coletamos dados e informações que podem, basicamente, ser classificados em duas espécies:
+
+        Dados Disponibilizados Pelo Usuário
+
+        Esses dados incluem todas as informações que os Usuários disponibilizaram à NEON de forma ativa e voluntária, abrangendo, entre outros:
+
+        Dados Pessoais: quaisquer dados que permitam a identificação pessoal do Usuário, como, exemplificativamente, nome, endereço, CPF, número de telefone, número de fax ou endereço de e-mail, fornecidos ao se cadastrar na NEON.>
+
+        Dados de Conta: quaisquer dados que o Usuário insira no contexto da utilização dos Serviços da NEON, incluindo, mas não se limitando a números de contas de pagamento ou conta corrente, tanto do Usuário, quanto de terceiros.
+
+        Dados Coletados Pela NEON
+
+        Dados Financeiros Pessoais: quaisquer dados do Usuário coletados decorrentes da utilização dos Serviços no Site e no Aplicativo incluindo, sem limitação, a movimentação financeira via NEON e a natureza e tipo de suas despesas, entre outros dados relevantes à melhor experiência do Usuário.
+
+        Dados de Acesso: informações coletadas com o uso do Site e do Aplicativo, mais especificamente, mas não só o navegador de acesso utilizado pelo Usuário, o dispositivo móvel utilizado, se aplicável, informações sobre a sua tela e resolução, endereço do protocolo de Internet (IP), tempo médio gasto, data e localização de acesso à NEON. Além disso, se forem usadas as ferramentas de comunicação disponibilizadas pela NEON, manteremos registro de toda comunicação trocada para que possamos auxiliá-lo a, eventualmente, resolver problemas futuros semelhantes ou conexos que possam ocorrer
+
+        Periodicamente, a NEON poderá solicitar complementações de dados ao Usuário, sendo certo que você sempre terá a opção de fornecê-los ou não.
+
+        Os dados coletados pela NEON, acima definidos, podem ser coletados por meio da utilização de cookies e tecnologias similares, como pixels e tags, para nos certificarmos de que os Serviços prestados pela NEON atendem ao padrão esperado. Além disso, a implementação e acesso cookies serve para permitir a correta identificação do Usuário, além de melhorar a qualidade das informações oferecidas no Site e experiência para os Usuários.
+
+        O uso regular de cookies é uma prática comum na indústria, pois permite o armazenamento de informações importantes, como, por exemplo, os acessos do Usuário na plataforma, para a seleção de conteúdo apresentado ao Usuário. O Usuário poderá programar, a seu critério, seu browser para inabilitar ou ser notificado sobre o uso de cookies. Os cookies recolhidos pela NEON serão utilizados dentro dos termos previstos nesta Política de Privacidade e nos Termos de Uso.
+
+        UTILIZAÇÃO E TRATAMENTO DOS DADOS
+
+        Funcionamento da NEON
+
+        Usaremos todos os dados mencionados no item acima para que você possa utilizar os nossos Serviços de acordo com o desempenho esperado, bem como para desenvolvê-los e aprimorá-los. Isso também inclui, dentre outras coisas, realizar análises estatísticas e identificar e solucionar problemas operacionais.
+
+        A NEON também poderá usar os dados disponibilizados pelo Usuário e os dados coletados pela NEON para identificar as suas necessidades específicas e, dessa forma, desenvolver serviços mais personalizados e individualizados.
+
+        Envio de e-mail e alertas pela NEON
+
+        Mensagens eletrônicas relacionadas à NEON poderão ser enviadas a você com a finalidade de auxiliá-lo a explorar todas as funcionalidades oferecidas, bem como de fornecer orientações para a utilização dos Serviços de maneira mais eficiente.
+
+        Base de Dados de Propriedade Exclusiva da NEON
+
+        Ao clicar na caixa "LI E ACEITO", o Usuário também autoriza EXPRESSA E LIVREMENTE a utilização da totalidade das informações coletadas para a criação de uma base de dados de propriedade intelectual da NEON, de forma a auxiliar o desenvolvimento de outros benefícios e soluções inteligentes, com o objetivo de atender cada vez mais às necessidades dos Usuários.
+
+        Transmissão de Dados Para Empresas do Mesmo Grupo Econômico
+
+        O compartilhamento dos Dados Pessoais, Dados de Conta e Dados Financeiros Pessoais do Usuário é permitido, conforme houver necessidade, entre as empresas do mesmo grupo econômico da NEON, já que tal compartilhamento tem como objetivo beneficiar os Usuários e viabilizar os serviços a eles prestados. Para os fins desse compartilhamento, entende-se como pertencentes ao mesmo grupo econômico da NEON, além do(s) seus controlador(es) e administrador(es), atual(is) ou futuro(s), as empresas administradas pelo ou sob controle direto ou indireto da NEON ou de seu(s) controlador(es) ou administrador(es), atual(is) ou futuro(s), e que atuem de maneira coordenada com a NEON no sentido de maximizar produtividade e resultados, garantindo excelência na prestação de serviços aos seus Usuários.
+
+
+
+        Além disso, o Usuário reconhece e aceita compartilhar os Dados Pessoais, Dados de Conta e Dados Financeiros Pessoais do Usuário, conforme houver necessidade, para Instituição Financeira com a qual a Neon Pagamentos S.A. possua acordo operacional, já que tal compartilhamento tem como objetivo beneficiar os Usuários e viabilizar os serviços a eles prestados no âmbito dos Serviços.
+
+        Transmissão de Dados a Terceiros
+
+        Ao concordar com a Política de Privacidade, o Usuário reconhece e aceita que não se enquadram como terceiros as pessoas pertencentes ao mesmo grupo econômico da NEON, conforme descrito acima. Isto posto, desde que para o seu benefício, a NEON está autorizada a compartilhar Dados Pessoais com parceiros que estejam formalmente obrigados a manter sigilo a respeito das informações assim conhecidas. Por outro lado, os Dados Financeiros Pessoais e os Dados de Conta somente poderão ser compartilhados com terceiros mediante autorização expressa e específica do Usuário.
+
+        ARMAZENAMENTO E PROTEÇÃO DOS DADOS E REGISTROS DE CONEXÃO
+
+        Segurança das Informações
+
+        A segurança de todos os dados disponibilizados por nossos Usuários e de seus registros de conexão é considerada extremamente importante pela NEON. Mesmo sabendo que qualquer sistema de proteção está sujeito a defeitos e possíveis violações que levem ao vazamento de dados, é nossa intenção sempre evitar que isso ocorra. Para isso, todas as informações dos Usuários trafegam de forma segura, utilizando processo de criptografia padrão da internet.
+
+        A NEON limita o acesso aos dados e informações pessoais coletados aos seus próprios empregados que possam ter necessidade de conhecê-las para exercer suas funções e mantém controles de acessos nos termos da lei.
+
+        A NEON conta com recursos de proteção física, eletrônica e procedimental, que atendem aos padrões legais nacionais e internacionais de proteção a informações pessoais, tais como mecanismos de autenticação de acesso com sistemas de autenticação dupla assegurando a individualização do responsável pelo tratamento dos registros, inventário detalhado de acessos à plataforma, uso de soluções de gestão de registros por técnicas que garantem a inviolabilidade dos dados.
+
+        Os dados coletados pela NEON são armazenados e guardados nos servidores da NEON ou de outra Instituição Financeira parceira enquanto os Usuários mantiverem seu cadastro ativo conosco. O Usuário terá acessos aos seus dados armazenados pela NEON e poderá solicitar correções eventualmente necessárias.
+
+        Exclusão dos Dados
+
+        Mediante solicitação expressa do Usuário após o cancelamento do cadastro na NEON, efetuada por meio do Site/Aplicativo, ressalvadas as hipóteses de guarda obrigatória de registros previstas na lei aplicável ou da guarda necessária para exercício regular de direito por parte da NEON, a NEON compromete-se a excluir definitivamente todos os seus Dados Pessoais, Dados de Conta e Dados Financeiros Pessoais.
+
+        Cabe ressaltar que tanto a expressa solicitação de exclusão do cadastro na NEON, como a exclusão de Dados Pessoais, Dados de Conta e Dados Financeiros Pessoais implica exclusão do cadastro na NEON, com perda permanente de acesso a qualquer informação nela inserida. Para voltar a usar os Serviços disponibilizados pela NEON, o Usuário deverá iniciar os procedimentos necessários para criar um novo cadastro na NEON.
+
+        Eventualmente, devido a cumprimento legal ou de ordem de autoridade pública, a NEON manterá guardados dados de certos Usuários por um período superior e, mediante decisão judicial, poderá disponibilizar dados coletados de Usuários.
+
+
+
+        OUTRAS INFORMAÇÕES IMPORTANTES
+
+        Embora a NEON tenha o dever de confidencialidade em relação aos seus dados, de acordo com os termos desta Política de Privacidade, é responsabilidade de cada Usuário manter o seu Login e senha de acesso à NEON seguros, não devendo fornecê-los a ninguém.
+
+        Em caso de suspeita de roubo de seu Login e senha de acesso à NEON ou caso acredite que estes sejam de conhecimento de outras pessoas, por qualquer razão, você deve imediatamente comunicar à NEON por meio do chat de atendimento no Aplicativo ou pelo email disponível no Site ou Aplicativo, além de realizar a imediata alteração de senha por meio do Aplicativo.
+
+        AO CLICAR NO BOTÃO "LI E ACEITO" VOCÊ ESTARÁ DEMONSTRANDO CONSENTIMENTO LIVRE, EXPRESSO E INFORMADO COM TODAS AS PRÁTICAS MENCIONADAS NESTA POLÍTICA DE PRIVACIDADE.
+
+        CASO VOCÊ NÃO TENHA ENTENDIDO QUALQUER PARTE DESTA POLÍTICA DE PRIVACIDADE, você deverá entrar em contato com a NEON ANTES DE CLICAR NO BOTÃO "LI E ACEITO" por meio do e-mail disponível no Site ou Aplicativo. Estamos à disposição nesse mesmo endereço eletrônico para esclarecer quaisquer outras dúvidas que você possa ter.
+
+        Os termos desta Política de Privacidade são regidos e deverão ser interpretados de acordo com as Leis da República Federativa do Brasil.
+
+        ATUALIZAÇÕES DA POLÍTICA DE PRIVACIDADE
+
+        Conforme necessário, a NEON compromete-se a regularmente reavaliar a sua Política de Privacidade e adaptá-la. Caso sejam implementadas mudanças nesta Política de Privacidade, o Usuário será notificado com antecedência, cumprindo-lhe analisar tais alterações antes do Aceite da nova versão.]]>
+    </string>
+</resources>

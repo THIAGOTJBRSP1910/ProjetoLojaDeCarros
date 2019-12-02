@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:pageColor="@color/cinza"
+            app:fillColor="@color/branco"
+            app:slideInterval="3000"
+            app:radius="6dp"
+            app:strokeColor="@color/cinza"
+            app:strokeWidth="1dp"
+            android:id="@+id/carouselcorolla"
+
+    >
+
+    </com.synnapps.carouselview.CarouselView>
+
+    <ImageView android:layout_width="410dp"
+               android:layout_height="300dp"
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/carouselcorolla"
+               android:id="@+id/toyotac"
+               android:background="@drawable/corollac"
+    />
+    <ImageView android:layout_width="410dp"
+               android:layout_height="300dp"
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/toyotac"
+               android:id="@+id/localizacaotoyotac"
+               android:background="@drawable/localizacao"
+
+    />
+</RelativeLayout>
+</ScrollView>
